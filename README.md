@@ -1,4 +1,4 @@
-# Hi, I'm rustdevlabs 👋
+# Hi, I'm kratos0722 👋
 
 ### Senior Software Engineer — Rust · TypeScript · Distributed Backends
 
@@ -23,20 +23,20 @@ a multithreaded data pipeline, or a cross-chain smart-contract protocol.
 
 | Project | What it is | Stack |
 | --- | --- | --- |
-| [**sol_bridge**](https://github.com/rustdevlabs/sol_bridge) | Solana ⇄ EVM bridge for transferring assets & data across chains | Rust · Anchor |
-| [**stream_llm**](https://github.com/rustdevlabs/stream_llm) | Real-time streaming LLM chat app over WebSockets | Python · Django · React · LangChain |
-| [**axum_rust_backend**](https://github.com/rustdevlabs/axum_rust_backend) | Async CRUD REST API with Diesel, Postgres & structured tracing | Rust · Axum |
-| [**rust-backend**](https://github.com/rustdevlabs/rust-backend) | Task-manager backend service | Rust |
-| [**LendingPlatform**](https://github.com/rustdevlabs/LendingPlatform) | NFT lending protocol smart contracts | Rust · CosmWasm |
-| [**tgbot**](https://github.com/rustdevlabs/tgbot) | Dockerized Telegram bot | Go |
+| [**sol_bridge**](https://github.com/kratos0722/sol_bridge) | Solana ⇄ EVM bridge for transferring assets & data across chains | Rust · Anchor |
+| [**stream_llm**](https://github.com/kratos0722/stream_llm) | Real-time streaming LLM chat app over WebSockets | Python · Django · React · LangChain |
+| [**axum_rust_backend**](https://github.com/kratos0722/axum_rust_backend) | Async CRUD REST API with Diesel, Postgres & structured tracing | Rust · Axum |
+| [**rust-backend**](https://github.com/kratos0722/rust-backend) | Task-manager backend service | Rust |
+| [**LendingPlatform**](https://github.com/kratos0722/LendingPlatform) | NFT lending protocol smart contracts | Rust · CosmWasm |
+| [**tgbot**](https://github.com/kratos0722/tgbot) | Dockerized Telegram bot | Go |
 
 ---
 
 ### 📊 GitHub Stats
 
 <p>
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=rustdevlabs&show_icons=true&hide_rank=false&theme=transparent" alt="GitHub stats" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=rustdevlabs&layout=compact&langs_count=8&theme=transparent" alt="Top languages" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=kratos0722&show_icons=true&hide_rank=false&theme=transparent" alt="GitHub stats" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=kratos0722&layout=compact&langs_count=8&theme=transparent" alt="Top languages" />
 </p>
 
 ---
