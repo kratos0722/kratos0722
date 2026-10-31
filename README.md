@@ -58,9 +58,9 @@ async APIs and real-time pipelines to cloud infrastructure.
 | --- | --- | --- | --- |
 | [**erp-integration-service**](https://github.com/kratos0722/erp-integration-service) | Backend · C#/.NET | REST service syncing business records to Sage 300 & Acumatica — clean architecture, resilient ERP connectors, fully tested | C# · ASP.NET Core · EF Core |
 | [**config-driven-etl**](https://github.com/kratos0722/config-driven-etl) | Data Engineering | Config-driven multi-tenant ETL framework; tenants onboarded via YAML, not code | Python · Polars · DuckDB |
+| [**azure-aks-platform**](https://github.com/kratos0722/azure-aks-platform) | Cloud · DevOps | Terraform (AKS, ACR, PostgreSQL, observability) + Helm + CI/CD for a containerized API | Terraform · Azure · Kubernetes |
 | [**stream_llm**](https://github.com/kratos0722/stream_llm) | Full-Stack · AI | Real-time streaming LLM chat app over WebSockets | Python · Django · React · LangChain |
 | [**sol_bridge**](https://github.com/kratos0722/sol_bridge) | Systems | Solana ⇄ EVM bridge for cross-chain asset & data transfer | Rust · Anchor |
-| [**axum_rust_backend**](https://github.com/kratos0722/axum_rust_backend) | Backend | Async CRUD REST API with Diesel, Postgres & tracing | Rust · Axum |
 | [**tgbot**](https://github.com/kratos0722/tgbot) | Backend / Tooling | Dockerized Telegram bot | Go |
 
 ---
