@@ -57,6 +57,7 @@ async APIs and real-time pipelines to cloud infrastructure.
 | Project | Domain | What it is | Stack |
 | --- | --- | --- | --- |
 | [**erp-integration-service**](https://github.com/kratos0722/erp-integration-service) | Backend · C#/.NET | REST service syncing business records to Sage 300 & Acumatica — clean architecture, resilient ERP connectors, fully tested | C# · ASP.NET Core · EF Core |
+| [**fullstack-taskboard**](https://github.com/kratos0722/fullstack-taskboard) | Full-Stack · Web | Task manager with a typed Next.js UI on a FastAPI backend; Postgres, Docker Compose, CI | Next.js · TypeScript · FastAPI |
 | [**config-driven-etl**](https://github.com/kratos0722/config-driven-etl) | Data Engineering | Config-driven multi-tenant ETL framework; tenants onboarded via YAML, not code | Python · Polars · DuckDB |
 | [**azure-aks-platform**](https://github.com/kratos0722/azure-aks-platform) | Cloud · DevOps | Terraform (AKS, ACR, PostgreSQL, observability) + Helm + CI/CD for a containerized API | Terraform · Azure · Kubernetes |
 | [**stream_llm**](https://github.com/kratos0722/stream_llm) | Full-Stack · AI | Real-time streaming LLM chat app over WebSockets | Python · Django · React · LangChain |
