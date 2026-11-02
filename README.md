@@ -69,6 +69,7 @@ async APIs and real-time pipelines to cloud infrastructure.
 | [**mcp-server**](https://github.com/kratos0722/mcp-server) | AI · Tooling | TypeScript **Model Context Protocol** server — exposes internal tools + resources to AI assistants with Zod-validated inputs; demo MCP client | TypeScript · MCP · Node |
 | [**spark-batch-pipeline**](https://github.com/kratos0722/spark-batch-pipeline) | Data Eng · Spark | Distributed batch ETL — clean/dedupe (window functions), incremental loading, daily revenue aggregates to a date-partitioned warehouse | Python · PySpark |
 | [**azure-aks-platform**](https://github.com/kratos0722/azure-aks-platform) | Cloud · DevOps | Terraform (AKS, ACR, PostgreSQL, observability) + Helm + CI/CD for a containerized API | Terraform · Azure · Kubernetes |
+| [**aws-serverless-api**](https://github.com/kratos0722/aws-serverless-api) | Cloud · Serverless | AWS Lambda + API Gateway + DynamoDB via **AWS CDK**; Zod validation, encrypted table, least-privilege IAM | TypeScript · AWS CDK |
 | [**stream_llm**](https://github.com/kratos0722/stream_llm) | Full-Stack · AI | Real-time streaming LLM chat app over WebSockets | Python · Django · React · LangChain |
 | [**sol_bridge**](https://github.com/kratos0722/sol_bridge) | Systems | Solana ⇄ EVM bridge for cross-chain asset & data transfer | Rust · Anchor |
 | [**tgbot**](https://github.com/kratos0722/tgbot) | Backend / Tooling | Dockerized Telegram bot | Go |
