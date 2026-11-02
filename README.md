@@ -62,6 +62,7 @@ async APIs and real-time pipelines to cloud infrastructure.
 | [**fullstack-taskboard**](https://github.com/kratos0722/fullstack-taskboard) | Full-Stack · Web | Task manager with a typed Next.js UI on a FastAPI backend; Postgres, Docker Compose, CI | Next.js · TypeScript · FastAPI |
 | [**config-driven-etl**](https://github.com/kratos0722/config-driven-etl) | Data Engineering | Config-driven multi-tenant ETL framework; tenants onboarded via YAML, not code | Python · Polars · DuckDB |
 | [**realtime-data-pipeline**](https://github.com/kratos0722/realtime-data-pipeline) | Data Eng · Streaming | Kafka event ingest → **tumbling-window aggregation with watermarks** → DuckDB warehouse; pure, fully-tested processing core | Python · Kafka · DuckDB |
+| [**data-governance-service**](https://github.com/kratos0722/data-governance-service) | Data Eng · Governance | Asset catalog, access-request workflow, append-only audit log, and Snowflake/Airflow metadata sync that flags stale/incomplete data | Python · FastAPI · SQLAlchemy |
 | [**azure-aks-platform**](https://github.com/kratos0722/azure-aks-platform) | Cloud · DevOps | Terraform (AKS, ACR, PostgreSQL, observability) + Helm + CI/CD for a containerized API | Terraform · Azure · Kubernetes |
 | [**stream_llm**](https://github.com/kratos0722/stream_llm) | Full-Stack · AI | Real-time streaming LLM chat app over WebSockets | Python · Django · React · LangChain |
 | [**sol_bridge**](https://github.com/kratos0722/sol_bridge) | Systems | Solana ⇄ EVM bridge for cross-chain asset & data transfer | Rust · Anchor |
