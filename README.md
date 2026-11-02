@@ -56,6 +56,7 @@ async APIs and real-time pipelines to cloud infrastructure.
 
 | Project | Domain | What it is | Stack |
 | --- | --- | --- | --- |
+| [**commerce-platform**](https://github.com/kratos0722/commerce-platform) | Platform · Microservices | Polyglot system — Go API gateway + Java/Spring catalog + Python/FastAPI orders with real service-to-service calls; Compose & Kubernetes | Go · Java · Python |
 | [**erp-integration-service**](https://github.com/kratos0722/erp-integration-service) | Backend · C#/.NET | REST service syncing business records to Sage 300 & Acumatica — clean architecture, resilient ERP connectors, fully tested | C# · ASP.NET Core · EF Core |
 | [**inventory-service**](https://github.com/kratos0722/inventory-service) | Backend · Java | Spring Boot stock service with **concurrency-safe reservations** — guarded atomic updates, idempotency keys, optimistic locking; 200-thread no-oversell test | Java 21 · Spring Boot · JPA · PostgreSQL |
 | [**fullstack-taskboard**](https://github.com/kratos0722/fullstack-taskboard) | Full-Stack · Web | Task manager with a typed Next.js UI on a FastAPI backend; Postgres, Docker Compose, CI | Next.js · TypeScript · FastAPI |
