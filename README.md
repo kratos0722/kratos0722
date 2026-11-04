@@ -1,11 +1,15 @@
 # Hi, I'm kratos0722 👋
 
-### Senior Software Engineer — Polyglot Backend · Full-Stack · Data · Cloud
+### Senior Software Engineer — Backend · Cloud · Data · AI Platforms
 
-I design and ship high-performance backend systems and full-stack applications. Over 5+ years I've
-worked across **Rust, TypeScript, Python, Go, Java and C#**, with a focus on correctness, concurrency,
-clean architecture and production readiness. Deep in systems/backend, broad across the stack — from
-async APIs and real-time pipelines to cloud infrastructure.
+I design, build and ship production systems across **Rust, Go, TypeScript, Python, Java and C#** —
+multi-tenant APIs, real-time and batch data pipelines, cloud infrastructure as code, and LLM/RAG +
+model-serving platforms. I care about correctness, concurrency and clean architecture, with a bias
+toward things that actually run: **every project below is tested and CI-green.**
+
+- 🔭 Currently deep in **AI platform & cloud engineering** — MCP servers, LLM/model-serving gateways, agent orchestration, and secure-by-default IaC.
+- 🧪 I ship with tests and CI from day one, not as an afterthought.
+- 📫 Open to senior **backend · platform · cloud · AI** engineering roles — best reached through GitHub.
 
 ---
 
@@ -87,10 +91,10 @@ async APIs and real-time pipelines to cloud infrastructure.
 ## 📊 GitHub Stats
 
 <p>
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=kratos0722&show_icons=true&hide_rank=false&theme=transparent" alt="GitHub stats" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=kratos0722&layout=compact&langs_count=8&theme=transparent" alt="Top languages" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=kratos0722&show_icons=true&hide_rank=false&include_all_commits=true&count_private=true&hide_border=true&theme=transparent" alt="GitHub stats" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=kratos0722&layout=compact&langs_count=8&hide_border=true&theme=transparent" alt="Top languages" />
 </p>
 
 ---
 
-💼 **Open to senior backend / full-stack / platform engineering roles.** Best reached through GitHub.
+💼 **Open to senior backend · platform · cloud · AI engineering roles.** Best reached through GitHub.
