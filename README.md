@@ -62,29 +62,37 @@ toward things that actually run: **every project below is tested and CI-green.**
 | --- | --- | --- | --- |
 | [**commerce-platform**](https://github.com/kratos0722/commerce-platform) | Platform · Microservices | Polyglot system — Go API gateway + Java/Spring catalog + Python/FastAPI orders with real service-to-service calls; Compose & Kubernetes | Go · Java · Python |
 | [**erp-integration-service**](https://github.com/kratos0722/erp-integration-service) | Backend · C#/.NET | REST service syncing business records to Sage 300 & Acumatica — clean architecture, resilient ERP connectors, fully tested | C# · ASP.NET Core · EF Core |
-| [**inventory-service**](https://github.com/kratos0722/inventory-service) | Backend · Java | Spring Boot stock service with **concurrency-safe reservations** — guarded atomic updates, idempotency keys, optimistic locking; 200-thread no-oversell test | Java 21 · Spring Boot · JPA · PostgreSQL |
-| [**hl7-fhir-integration**](https://github.com/kratos0722/hl7-fhir-integration) | Backend · Healthcare | HL7 v2 + FHIR ingestion to a canonical patient model; PHI **role-based access + audit logging** | C# · ASP.NET Core · FHIR |
 | [**nestjs-saas-api**](https://github.com/kratos0722/nestjs-saas-api) | Backend · B2B SaaS | Multi-tenant NestJS API with **strict tenant isolation**, JWT auth, role-based access & team invitations; validated DTOs; Jest + Supertest e2e | NestJS · TypeScript · Passport JWT |
-| [**fullstack-taskboard**](https://github.com/kratos0722/fullstack-taskboard) | Full-Stack · Web | Task manager with a typed Next.js UI on a FastAPI backend; Postgres, Docker Compose, CI | Next.js · TypeScript · FastAPI |
-| [**offline-sync**](https://github.com/kratos0722/offline-sync) | Full-Stack · Offline | Offline-first sync engine — outbox queue + optimistic concurrency; stale updates **rejected (server wins)**, never silently overwritten | TypeScript |
-| [**config-driven-etl**](https://github.com/kratos0722/config-driven-etl) | Data Engineering | Config-driven multi-tenant ETL framework; tenants onboarded via YAML, not code | Python · Polars · DuckDB |
-| [**realtime-data-pipeline**](https://github.com/kratos0722/realtime-data-pipeline) | Data Eng · Streaming | Kafka event ingest → **tumbling-window aggregation with watermarks** → DuckDB warehouse; pure, fully-tested processing core | Python · Kafka · DuckDB |
-| [**data-governance-service**](https://github.com/kratos0722/data-governance-service) | Data Eng · Governance | Asset catalog, access-request workflow, append-only audit log, and Snowflake/Airflow metadata sync that flags stale/incomplete data | Python · FastAPI · SQLAlchemy |
-| [**contact-center-analytics**](https://github.com/kratos0722/contact-center-analytics) | Data Eng · Analytics Engineering | **dbt + DuckDB** models for contact-center KPIs (AHT, CSAT, FCR, SLA, occupancy) on shared cross-client definitions — SCD-2 history, **enforced model contracts** and versioned models so a breaking change fails CI, not a client report | dbt · DuckDB · SQL |
+| [**contact-center-analytics**](https://github.com/kratos0722/contact-center-analytics) | Data Eng · Analytics Engineering | **dbt + DuckDB** models for contact-center KPIs on shared cross-client definitions — SCD-2 history, **enforced model contracts** and versioned models so a breaking change fails CI, not a client report | dbt · DuckDB · SQL |
 | [**rag-service**](https://github.com/kratos0722/rag-service) | AI · RAG | Retrieval-augmented generation — chunking, embeddings, vector search, **grounded answers with citations**, output evals, and **runbook alert-triage** | Python · RAG · FastAPI |
-| [**model-serving-gateway**](https://github.com/kratos0722/model-serving-gateway) | AI · Model Serving | Online-inference gateway serving versioned model artifacts with **canary rollout, shadow traffic, deterministic A/B** and Prometheus-style metrics; sanitized errors + per-request timeout | Python · FastAPI · NumPy |
+| [**model-serving-gateway**](https://github.com/kratos0722/model-serving-gateway) | AI · Model Serving | Online-inference gateway serving versioned model artifacts with **canary rollout, shadow traffic, deterministic A/B** and Prometheus-style metrics | Python · FastAPI · NumPy |
+| [**cdk-construct-library**](https://github.com/kratos0722/cdk-construct-library) | Cloud · DevOps | **Secure-by-default AWS CDK** (TypeScript) constructs for S3, Lambda, VPC, DynamoDB & SQS with least-privilege IAM baked in; verified against synthesized CloudFormation | AWS CDK · TypeScript |
 | [**agent-orchestrator**](https://github.com/kratos0722/agent-orchestrator) | AI · Platform | Typed, deterministic **LangGraph-style graph runtime** — conditional routing, concurrent fan-out/fan-in with reducers, per-node retry/timeout, cycle guard, resumable checkpoints; stdlib only | Go |
-| [**mcp-server**](https://github.com/kratos0722/mcp-server) | AI · Tooling | TypeScript **Model Context Protocol** server — exposes internal tools + resources to AI assistants with Zod-validated inputs; demo MCP client | TypeScript · MCP · Node |
-| [**spark-batch-pipeline**](https://github.com/kratos0722/spark-batch-pipeline) | Data Eng · Spark | Distributed batch ETL — clean/dedupe (window functions), incremental loading, daily revenue aggregates to a date-partitioned warehouse | Python · PySpark |
+
+<details>
+<summary>➕ <strong>Show 17 more projects</strong></summary>
+
+| Project | Domain | What it is | Stack |
+| --- | --- | --- | --- |
+| [**platform-cost-observatory**](https://github.com/kratos0722/platform-cost-observatory) | Cloud · FinOps | AWS **Cost & Usage Report** analytics — tagging-hygiene scoring, spend allocation, month-end forecasting, budget-breach & explainable anomaly detection | Python · pandas |
+| [**aws-eks-platform**](https://github.com/kratos0722/aws-eks-platform) | Cloud · AWS/GitOps | Reusable Terraform modules (VPC, EKS, RDS, CloudWatch) + **Argo CD GitOps** + GitHub Actions | Terraform · AWS · Argo CD |
+| [**aws-serverless-api**](https://github.com/kratos0722/aws-serverless-api) | Cloud · Serverless | AWS Lambda + API Gateway + DynamoDB via **AWS CDK**; Zod validation, encrypted table, least-privilege IAM | TypeScript · AWS CDK |
 | [**azure-aks-platform**](https://github.com/kratos0722/azure-aks-platform) | Cloud · DevOps | Terraform (AKS, ACR, PostgreSQL, observability) + Helm + CI/CD for a containerized API | Terraform · Azure · Kubernetes |
 | [**azure-bicep-platform**](https://github.com/kratos0722/azure-bicep-platform) | Cloud · DevOps | Azure SaaS platform as **Bicep** IaC (App Service, Azure SQL, Key Vault, Monitor) + **Azure DevOps** pipeline, SQL **DACPAC**, and MSSQL **backup/DR** runbook | Bicep · Azure DevOps · Azure SQL |
-| [**aws-serverless-api**](https://github.com/kratos0722/aws-serverless-api) | Cloud · Serverless | AWS Lambda + API Gateway + DynamoDB via **AWS CDK**; Zod validation, encrypted table, least-privilege IAM | TypeScript · AWS CDK |
-| [**aws-eks-platform**](https://github.com/kratos0722/aws-eks-platform) | Cloud · AWS/GitOps | Reusable Terraform modules (VPC, EKS, RDS, CloudWatch) + **Argo CD GitOps** + GitHub Actions | Terraform · AWS · Argo CD |
-| [**cdk-construct-library**](https://github.com/kratos0722/cdk-construct-library) | Cloud · DevOps | **Secure-by-default AWS CDK** (TypeScript) constructs for S3, Lambda, VPC, DynamoDB & SQS with least-privilege IAM baked in; verified against synthesized CloudFormation | AWS CDK · TypeScript |
-| [**platform-cost-observatory**](https://github.com/kratos0722/platform-cost-observatory) | Cloud · FinOps | AWS **Cost & Usage Report** analytics — tagging-hygiene scoring, spend allocation, month-end forecasting, budget-breach & explainable anomaly detection | Python · pandas |
+| [**realtime-data-pipeline**](https://github.com/kratos0722/realtime-data-pipeline) | Data Eng · Streaming | Kafka event ingest → **tumbling-window aggregation with watermarks** → DuckDB warehouse; pure, fully-tested processing core | Python · Kafka · DuckDB |
+| [**spark-batch-pipeline**](https://github.com/kratos0722/spark-batch-pipeline) | Data Eng · Spark | Distributed batch ETL — clean/dedupe (window functions), incremental loading, daily revenue aggregates to a date-partitioned warehouse | Python · PySpark |
+| [**config-driven-etl**](https://github.com/kratos0722/config-driven-etl) | Data Engineering | Config-driven multi-tenant ETL framework; tenants onboarded via YAML, not code | Python · Polars · DuckDB |
+| [**data-governance-service**](https://github.com/kratos0722/data-governance-service) | Data Eng · Governance | Asset catalog, access-request workflow, append-only audit log, and Snowflake/Airflow metadata sync that flags stale/incomplete data | Python · FastAPI · SQLAlchemy |
+| [**mcp-server**](https://github.com/kratos0722/mcp-server) | AI · Tooling | TypeScript **Model Context Protocol** server — exposes internal tools + resources to AI assistants with Zod-validated inputs; demo MCP client | TypeScript · MCP · Node |
+| [**inventory-service**](https://github.com/kratos0722/inventory-service) | Backend · Java | Spring Boot stock service with **concurrency-safe reservations** — guarded atomic updates, idempotency keys, optimistic locking; 200-thread no-oversell test | Java 21 · Spring Boot · JPA · PostgreSQL |
+| [**hl7-fhir-integration**](https://github.com/kratos0722/hl7-fhir-integration) | Backend · Healthcare | HL7 v2 + FHIR ingestion to a canonical patient model; PHI **role-based access + audit logging** | C# · ASP.NET Core · FHIR |
+| [**fullstack-taskboard**](https://github.com/kratos0722/fullstack-taskboard) | Full-Stack · Web | Task manager with a typed Next.js UI on a FastAPI backend; Postgres, Docker Compose, CI | Next.js · TypeScript · FastAPI |
+| [**offline-sync**](https://github.com/kratos0722/offline-sync) | Full-Stack · Offline | Offline-first sync engine — outbox queue + optimistic concurrency; stale updates **rejected (server wins)**, never silently overwritten | TypeScript |
 | [**stream_llm**](https://github.com/kratos0722/stream_llm) | Full-Stack · AI | Real-time streaming LLM chat app over WebSockets | Python · Django · React · LangChain |
 | [**sol_bridge**](https://github.com/kratos0722/sol_bridge) | Systems | Solana ⇄ EVM bridge for cross-chain asset & data transfer | Rust · Anchor |
 | [**tgbot**](https://github.com/kratos0722/tgbot) | Backend / Tooling | Dockerized Telegram bot | Go |
+
+</details>
 
 ---
 
